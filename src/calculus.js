@@ -7,8 +7,7 @@
 export function add(a, b) {
     if (Number.isInteger(a) && Number.isInteger(b)) {
         return a + b;
-    }
-    else throw "Floats are not supported"
+    } else throw "Floats are not supported"
 }
 
 /**
