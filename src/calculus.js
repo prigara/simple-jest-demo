@@ -1,4 +1,4 @@
-export function sum(a, b) {
+export function add(a, b) {
     if (Number.isInteger(a) && Number.isInteger(b)) {
         return a + b;
     }

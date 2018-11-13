@@ -1,18 +1,18 @@
-import {divide, sum} from './calculus';
+import {divide, add} from './calculus';
 
-describe('sum', () => {
+describe('add', () => {
     test('1 + 2 to equal 3', () => {
-        expect(sum(1, 2)).toBe(3);
+        expect(add(1, 2)).toBe(3);
     });
 
-    test('throws error on 1.7 and 1.4', () => {
+    test('throws error on 1.7 + 1.4', () => {
         expect(() => {
-            sum(1.7, 1.4);
+            add(1.7, 1.4);
         }).toThrowError('Floats');
     });
 
     test('1 - 2 to equal -1', () => {
-        expect(sum(1, -2)).toBe(-1);
+        expect(add(1, -2)).toBe(-1);
     });
 });
 
